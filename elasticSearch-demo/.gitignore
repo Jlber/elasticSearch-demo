@@ -15,6 +15,7 @@ out
 *.iws
 *.iml
 *.ipr
+.cmd
 
 ### NetBeans ###
 nbproject/private/
