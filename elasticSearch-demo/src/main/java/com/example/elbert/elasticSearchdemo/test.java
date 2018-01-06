@@ -11,4 +11,5 @@ public class test {
 
     }
     void n222(){}
+    private void test(){}
 }
