@@ -10,4 +10,5 @@ public class test {
     void nn(){
 
     }
+    void n222(){}
 }
