@@ -54,6 +54,7 @@ public class EsController {
             IndexResponse response = client.prepareIndex("twitter", "tweet",String.valueOf(i))
                     .setSource(json, XContentType.JSON)
                     .get();
+            System.out.println("dddd");
             System.out.println(response.toString());
         }
         return "ok";
